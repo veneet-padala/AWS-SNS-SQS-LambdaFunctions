@@ -7,10 +7,10 @@ import os
 
 os.environ['AWS_DEFAULT_REGION'] = 'us-east-2'
 
-host = 'testdb.ciecm0r8o60g.us-east-2.rds.amazonaws.com'
-username = 'postgres1'
-password = 'AUGHftp021243'
-database = 'postgres'
+host = ''
+username = ''
+password = ''
+database = ''
 
 conn = psycopg2.connect(host=host, user=username, password=password, database=database)
 
